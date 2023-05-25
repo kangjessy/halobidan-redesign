@@ -1,0 +1,37 @@
+.footer {
+  padding: 100px;
+  padding-bottom: 30px;
+  background: #141a36;
+
+  .footer-menu {
+    .subscribe {
+      h4 {
+        font-weight: 700;
+        font-size: 25px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+a {
+  &:hover {
+    color: #ffffff !important;
+  }
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 14px;
+  color: #363636;
+
+  a {
+    text-decoration: underline;
+    color: #363636;
+    font-weight: 700;
+    &:hover {
+      text-decoration: none;
+      color: #000000 !important;
+    }
+  }
+}

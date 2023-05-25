@@ -1,0 +1,44 @@
+.hero {
+  background: linear-gradient(129.64deg, #0d5f94 19.33%, #1077b9 77.04%);
+  //   background-image: url(/images/background.png);
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+
+  //   Navbar
+  .navbar {
+    .navbar-brand {
+      font-weight: 600;
+      font-size: 25px;
+      color: #ffffff;
+      transition: 0.3s;
+
+      &:hover {
+        color: #ffe714;
+        transition: 0.3s;
+      }
+    }
+
+    .navbar-nav {
+      gap: 15px;
+      .nav-item {
+        .nav-link {
+          font-weight: 400;
+          font-size: 16px;
+          color: #ffffff;
+          transition: 0.3s;
+
+          &:hover {
+            color: #ffe714;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+
+  .sponsor {
+    padding: 41px 53px;
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+}
