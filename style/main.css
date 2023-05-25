@@ -12091,7 +12091,7 @@ p {
   transition: 0.3s;
 }
 .hero .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #ffe714;
+  color: #ffe714 !important;
   transition: 0.3s;
 }
 .hero .sponsor {
