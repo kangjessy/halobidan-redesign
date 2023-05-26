@@ -1,9 +1,11 @@
 .products {
+  margin-bottom: 100px;
   .product {
     .slider {
       width: 100%;
     }
     .card {
+      width: 18rem;
       transition: 0.3s;
 
       &:hover {

@@ -12152,10 +12152,14 @@ p {
   color: #414141;
 }
 
+.products {
+  margin-bottom: 100px;
+}
 .products .product .slider {
   width: 100%;
 }
 .products .product .card {
+  width: 18rem;
   transition: 0.3s;
 }
 .products .product .card:hover {
