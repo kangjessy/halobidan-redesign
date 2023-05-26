@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Halo Bidan Reseign</title>
 
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
     <!-- Swiper JS -->
     <link
       rel="stylesheet"
@@ -20,7 +27,9 @@
       <section class="hero py-2">
         <div class="container">
           <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg bg-transparent" id="navbar">
+          <nav
+            class="navbar navbar-expand-lg navbar-bid fixed-top navbar-fixed-top"
+          >
             <a class="navbar-brand align-items-center d-flex gap-3" href="#"
               ><img src="images/Logo Halo Bidan 1.svg" alt="" /> Halo Bidan</a
             >
@@ -57,7 +66,9 @@
             </div>
           </nav>
           <!-- End Navbar -->
-          <div class="row d-flex justify-content-between align-items-center">
+          <div
+            class="header row d-flex justify-content-between align-items-center"
+          >
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="hero-info">
                 <div class="desc">
@@ -481,13 +492,48 @@
         <div class="container-fluid">
           <h3 class="mb-4 text-center">Product</h3>
 
-          <div class="product" id="swipeProduct"></div>
+          <div class="product slider d-flex gap-3" id="swipeProduct">
+            <!-- product 1 -->
+            <a href="#" class="text-decoration-none card-hover">
+              <div
+                class="card border-0"
+                style="width: 18rem; border-radius: 15px"
+              >
+                <img
+                  src="images/product image.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="title mb-3">Shield & Handsanitizer</h5>
+                  <p class="subtitle">Rp 59,999</p>
+                </div>
+              </div>
+            </a>
+            <!-- product 2 -->
+            <a href="#" class="text-decoration-none card-hover">
+              <div
+                class="card border-0"
+                style="width: 18rem; border-radius: 15px"
+              >
+                <img
+                  src="images/product image.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="title mb-3">Shield & Handsanitizer</h5>
+                  <p class="subtitle">Rp 59,999</p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
       <!-- End Product -->
 
       <!-- Footer -->
-      <section class="footer">
+      <section class="footer mt-5">
         <div class="container">
           <div class="footer-menu">
             <div class="row">
@@ -608,15 +654,19 @@
       </section>
       <div class="copyright text-center mt-2 mb-2">
         Copyright © 2023 by <a href="#">HaloBidan</a> - Design by
-        <a href="">Rahadiansyah</a> | Redesign & Develop by
-        <a href="#">Kang Jessy</a>
+        <a href="https://www.figma.com/@rahadiansyah">Rahadiansyah</a> |
+        Redesign & Develop by
+        <a href="https://instagram.com/kangjessy">Kang Jessy</a>
       </div>
       <!-- End Footer -->
     </div>
 
     <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="style/consultant.js"></script>
-    <script src="style/product.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="vendor/jquery/jquery.slim.min.js"></script>
+    <script src="script/navbar-scroll.js"></script>
+    <script src="script/consultant.js"></script>
+    <script src="script/product.js"></script>
   </body>
 </html>

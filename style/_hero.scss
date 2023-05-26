@@ -36,6 +36,32 @@
     }
   }
 
+  .navbar-bid {
+    background: transparent;
+  }
+
+  .fixed-top {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .navbar-fixed-top.scrolled {
+    background: linear-gradient(
+      129.64deg,
+      #0d5f94 19.33%,
+      #1077b9 77.04%
+    ) !important;
+    transition: 200ms linear;
+    //opacity: 0.3;
+    box-shadow: 0 6px 60px rgba(22, 28, 51, 0.06);
+  }
+
+  .header {
+    margin-top: 50px;
+  }
+
   .sponsor {
     padding: 41px 53px;
     background: #f1f1f1;
